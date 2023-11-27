@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    position:fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   padding: 33px 9%;
+   background: transparent;
+}
+
+header img {
+    height: 130px;
+  }
+
+  body{
+    background-color: red;
+  }
+
+  .navlist{
+    display: flex;
+  }
+  .navlist a{
+    color: white;
+    margin-left: 130px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+  }
+
+  .navlist a:hover{
+    border-bottom: 2px solid #133917;
+  }
+
+  #menu-icon{
+    color: white;
+    font-size: 30px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+  }
+
+  .hero{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(245.59deg,#4d9559 0%, #38703d 28.53%, #133917 75.52%);
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(10, 7%);
+    gap: 2rem;
+}
+
+.hero-img{
+    padding-top: 110px;
+    grid-column: 6/8;
+    filter: drop-shadow(25px 25px 40px #133917);
+}
+
+.hero-text{
+    padding-top: 250px;
+    grid-column: 3/6;
+    color: white;
+}
+
+.hero-text h3{
+font-family: Atrament;
+font-style: italic;
+padding: 10px;
+padding-bottom: 30px;
+}
+
+.hero-text button{
+    margin-top: 40px;
+    font-size: 1em;
+    font-weight: 500;
+    color: white;
+    background-color: #4d9559;
+    padding: 10px;
+    border: 1px solid #2E1913;
+    cursor: pointer;
+  
+}
+
+
